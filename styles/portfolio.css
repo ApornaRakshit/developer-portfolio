@@ -30,7 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0px 100px;
+    padding: 0px 100px;
 }
 
 .nav-title {
@@ -194,6 +194,7 @@ main {
     display: flex;
     padding: 70px 50px;
     background: #FFF8F3;
+
 }
 
 .contact .section-title {
@@ -203,10 +204,10 @@ main {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding:18px 30px;
+    padding: 18px 30px;
 }
 input{
-    height: 64px;
+    height: 30px;
 }
 .contact a{
     text-decoration: none;
