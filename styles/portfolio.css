@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -16,147 +17,197 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
+
 /* header and navigation styles */
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
     padding: 25px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 100px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 25px;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
+
 /* banner styles */
-.banner{
-    margin: 0  100px;
-   display: flex;
-   align-items: center;
+.banner {
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
 }
-.banner-title{
-font-weight: 700;
-font-size: 40px;
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     font-weight: 600;
-   font-size: 30px;
-   margin-bottom: 18px;
+    font-size: 30px;
+    margin-bottom: 18px;
 }
-.banner-description{
+
+.banner-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 /* main section */
-main{
+main {
     max-width: 900px;
     margin: 0 auto;
 }
+
 /* about section styles */
-.about{
- margin-top: 130px;
- text-align: center;
- background: #FFF8F3;
- border-radius: 10px;
- padding: 60px 120px;
+.about {
+    margin-top: 130px;
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 60px 120px;
 
 }
 
-.section-title{
- font-weight: 700;
-font-size: 25px;
- margin-bottom: 30px;
+.section-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
-.section-description{
- color: #757575;
- font-size: 18px;
- margin-bottom: 30px;
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
+
 /* What I do style */
-.what-I-do{
+.what-I-do {
     margin-top: 60px;
-   
+
 }
-.section-title{
+
+.section-title {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     gap: 24px;
 }
-.skill{
+
+.skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
     color: #757575;
 }
+
 /* Resume styles */
-.resume-content{
+.resume-content {
     display: flex;
     gap: 24px;
 }
-.resume .title{
-  font-weight: 700;  
-  font-size: 25px;
-  color: #474747;
-  margin-bottom: 10px;
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
 }
-.resume .sub-title{
-color: #757575;
-font-weight: 600;
-font-size: 20px;
-margin-bottom: 10px;
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-.resume .description{
-font-size: 400;
-color: #757575;
+
+.resume .description {
+    font-size: 400;
+    color: #757575;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-btn{
+
+.resume-btn {
     margin-top: 60px;
     text-align: center;
     margin-bottom: 60px;
 }
 
+/* contact styles */
+
+.contact {
+    gap: 100x;
+    display: flex;
+    padding: 70px 50px;
+    background: #FFF8F3;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
