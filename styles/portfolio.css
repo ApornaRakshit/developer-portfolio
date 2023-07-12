@@ -84,14 +84,14 @@ main {
     text-align: center;
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 60px 120px;
+    padding: 30px 60px;
 
 }
 
 .section-title {
     font-weight: 700;
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .section-description {
@@ -196,24 +196,21 @@ main {
     padding: 0 100px;
 
 }
-
 .contact .section-title {
     text-align: left;
 }
-
 .contact input[type="text"],
 input[type="email"],
 textarea {
     margin-bottom: 20px;
     border: 0;
-    width: 100%;
-    padding: 18px 30px;
+    width: 70%;
+   
+    padding: 16px 25px;
 }
-
 input {
-    height: 20px;
+    height: 16px;
 }
-
 .contact a {
     text-decoration: none;
 }
